@@ -20,6 +20,7 @@ class LoginController extends Controller
         $admin->email = "admin@admin.com";
         $admin->password = bcrypt("123456");
         $admin->save();
+
     }
 
     public function login(LoginRequest $request)
