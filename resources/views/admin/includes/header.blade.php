@@ -206,10 +206,10 @@
                   <span class="user-name text-bold-700">{{ auth('admin')->user()->name  }}</span>
                 </span>
                             <span class="avatar avatar-online">
-                  <img src="{{ asset('assets/admin/') }}images/portrait/small/avatar-s-19.png"
+                  <img src="{{ asset('assets/images/admins/1912.jpg') }}"
                        alt="avatar"><i></i></span>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="#"><i
+                        <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="{{ route('edit.profile') }}"><i
                                     class="ft-user"></i> Edit Profile</a>
                             <a class="dropdown-item" href="#"><i class="ft-mail"></i> My Inbox</a>
                             <a class="dropdown-item" href="#"><i class="ft-check-square"></i> Task</a>
@@ -343,7 +343,7 @@
                                     <div class="media">
                                         <div class="media-left">
                         <span class="avatar avatar-sm avatar-online rounded-circle">
-                          <img src="{{ asset('assets/admin/') }}images/portrait/small/avatar-s-19.png"
+                          <img src="{{ asset('../assets/images/admins/1912.jpg') }}"
                                alt="avatar"><i></i></span>
                                         </div>
                                         <div class="media-body">
